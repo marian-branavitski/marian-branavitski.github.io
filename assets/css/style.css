@@ -559,4 +559,9 @@ nav.nav-mobile {
         padding-bottom: 10px;
     }
 
+    .contact .form-container {
+        width: 90%;
+        padding: 26px 20px;
+    }
+
 }
