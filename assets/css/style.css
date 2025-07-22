@@ -492,7 +492,7 @@ nav.nav-mobile {
     }
 }
 
-@media (max-width: 896px) {
+@media (max-width: 900px) {
     .hero-picture {
         justify-content: center;
         align-items: center;
