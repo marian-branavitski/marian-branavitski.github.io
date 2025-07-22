@@ -555,7 +555,7 @@ nav.nav-mobile {
     }
 
     .latest-img:hover {
-        transform: none;
+        transform: none !important;
         z-index: 1;
         color: white;
         background-color: none;
