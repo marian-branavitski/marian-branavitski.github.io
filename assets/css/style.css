@@ -554,6 +554,13 @@ nav.nav-mobile {
         padding-right: 10px;
     }
 
+    ,latest-imgs:hover {
+        transform: none;
+        z-index: 1;
+        color: white;
+        background-color: none;
+    }
+
     .label-p {
         text-align: center;
         padding-bottom: 10px;
