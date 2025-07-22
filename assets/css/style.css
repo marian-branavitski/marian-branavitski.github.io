@@ -554,7 +554,7 @@ nav.nav-mobile {
         padding-right: 10px;
     }
 
-    .latest-imgs:hover {
+    .latest-img:hover {
         transform: none;
         z-index: 1;
         color: white;
