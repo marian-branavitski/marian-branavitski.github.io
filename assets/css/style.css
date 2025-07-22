@@ -493,14 +493,19 @@ nav.nav-mobile {
 }
 
 @media (max-width: 900px) {
+    *:hover {
+        transition: none !important;
+        transform: none !important;
+    }
+
     .hero-picture {
         justify-content: center;
         align-items: center;
     }
 
     .hero-picture>img:first-child {
-        width: 47%;
-        height: 50%;
+        width: auto;
+        height: 40%;
     }
 
     .hero-picture>p:nth-child(2) {
@@ -569,6 +574,15 @@ nav.nav-mobile {
     .contact .form-container {
         width: 90%;
         padding: 5% 2%;
+    }
+
+    .carousel-img {
+        width: 100%;
+        width: 60%;
+    }
+
+    .carousel-contents {
+        height: 50vh;
     }
 
 }
