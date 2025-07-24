@@ -490,14 +490,32 @@ nav.nav-mobile {
         gap: 100px;
         text-align: center;
     }
+
+    .hero-picture>img:first-child {
+        width: 200px;
+        height: 200px;
+        margin-top: 10%;
+    }
 }
 
+<<<<<<< Updated upstream
 @media (max-width: 900px) {
+=======
+@media (max-width: 920px) {
+>>>>>>> Stashed changes
     *:hover {
         transition: none !important;
         transform: none !important;
     }
 
+<<<<<<< Updated upstream
+=======
+    .latest-img:hover {
+        transform: none !important;
+        cursor: default;
+    }
+
+>>>>>>> Stashed changes
     .hero-picture {
         justify-content: center;
         align-items: center;
@@ -505,7 +523,12 @@ nav.nav-mobile {
 
     .hero-picture>img:first-child {
         width: auto;
+<<<<<<< Updated upstream
         height: 40%;
+=======
+        height: 37%;
+        margin-top: 13%;
+>>>>>>> Stashed changes
     }
 
     .hero-picture>p:nth-child(2) {
@@ -571,9 +594,23 @@ nav.nav-mobile {
         padding-bottom: 10px;
     }
 
+    .carousel {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-auto-rows: auto;
+        gap: 15px;
+    }
+        
     .contact .form-container {
         width: 90%;
         padding: 5% 2%;
+<<<<<<< Updated upstream
+=======
+    }
+
+    .hero-picture {
+        height: 100vh;
+>>>>>>> Stashed changes
     }
 
     .carousel-img {
