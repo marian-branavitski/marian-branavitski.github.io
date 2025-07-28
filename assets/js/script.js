@@ -106,7 +106,7 @@ try {
 
 //If the current page is not index.html then the header nav background is transparent and it changes to black when the user scrolls down.
 // The checkpoint is set to be lower than that in index.html so that the contents of other pages did not overlap with the header
-if (!window.location.pathname.endsWith('/index.html')) {
+if (!window.location.pathname.endsWith('/')) {
     let checkpoint = 15;
 
     let nav_bg = 'transparent';
