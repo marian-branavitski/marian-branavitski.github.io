@@ -103,7 +103,7 @@ try {
 } catch (error) {
     console.log(error);
 }
-alert(window.location.pathname);
+
 //If the current page is not index.html then the header nav background is transparent and it changes to black when the user scrolls down.
 // The checkpoint is set to be lower than that in index.html so that the contents of other pages did not overlap with the header
 if (!window.location.pathname.endsWith('/index.html')) {
